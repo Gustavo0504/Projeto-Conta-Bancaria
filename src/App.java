@@ -6,7 +6,7 @@ public class App {
 
         Scanner scanner = new Scanner(System.in);
       
-        ContaCorrente contaCorrente = new ContaCorrente(1000, 18);
+        ContaCorrente contaCorrente = new ContaCorrente(1000, 19);
         contaCorrente.deposita(220);
         contaCorrente.enviaPix(250, "513597-2300");
         contaCorrente.saca(100);
